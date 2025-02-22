@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+
 struct TestBunkaiApp: App {
     var body: some Scene {
         WindowGroup {
