@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E21B3ABA2D698B08007AEF07 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21B3AB92D698B08007AEF07 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E21B3A4B2D68D56B007AEF07 /* TestBunkai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBunkai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21B3AB92D698B08007AEF07 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E21B3ABE2D699408007AEF07 /* Exceptions for "TestBunkai" folder in "TestBunkai" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E21B3A4A2D68D56B007AEF07 /* TestBunkai */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E21B3A4D2D68D56B007AEF07 /* TestBunkai */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E21B3ABE2D699408007AEF07 /* Exceptions for "TestBunkai" folder in "TestBunkai" target */,
+			);
 			path = TestBunkai;
 			sourceTree = "<group>";
 		};
@@ -23,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21B3ABA2D698B08007AEF07 /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				E21B3A4D2D68D56B007AEF07 /* TestBunkai */,
+				E21B3AB82D698B08007AEF07 /* Frameworks */,
 				E21B3A4C2D68D56B007AEF07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +63,14 @@
 				E21B3A4B2D68D56B007AEF07 /* TestBunkai.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E21B3AB82D698B08007AEF07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E21B3AB92D698B08007AEF07 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +283,7 @@
 				DEVELOPMENT_TEAM = NPY2X4BWTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestBunkai/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +313,7 @@
 				DEVELOPMENT_TEAM = NPY2X4BWTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestBunkai/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

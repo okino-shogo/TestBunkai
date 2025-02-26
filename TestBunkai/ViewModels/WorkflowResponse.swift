@@ -6,3 +6,14 @@
 //
 
 import Foundation
+struct WorkflowResponse: Codable {
+    let data: WorkflowData
+}
+
+struct WorkflowData: Codable {
+    let outputs: WorkflowOutputs
+}
+
+struct WorkflowOutputs: Codable {
+    let text: String  // 🔹 JSONの文字列として取得
+}

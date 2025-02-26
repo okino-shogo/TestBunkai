@@ -1,17 +1,19 @@
 //
-//  TestBunkaiApp.swift
+//  MyApp.swift
 //  TestBunkai
 //
-//  Created by 沖野匠吾 on 2025/02/22.
+//  Created by 沖野匠吾 on 2025/02/25.
 //
+
 
 import SwiftUI
 
-
-struct TestBunkaiApp: App {
+@main
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+
